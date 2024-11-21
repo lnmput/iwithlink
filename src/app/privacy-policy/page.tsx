@@ -16,7 +16,7 @@ export default function PrivacyPolicy() {
           <p className="mb-4">The information we collect is used solely for providing and improving our bookmark management services. This includes organizing, categorizing, and syncing your bookmarks. We do not use this information for any other purpose, nor do we share it with third parties.</p>
           
           <h2 className="text-lg font-semibold mb-2">3. Data Storage and Security</h2>
-          <p className="mb-4">Your bookmark data is stored locally in your browser using Chrome's storage API. Any cloud synchronization is handled through your Chrome account's built-in sync features. We implement industry-standard security measures to protect your data during all operations.</p>
+          <p className="mb-4">Your bookmark data is stored locally in your browser using Chrome&quot;s storage API. Any cloud synchronization is handled through your Chrome account&quot;s built-in sync features. We implement industry-standard security measures to protect your data during all operations.</p>
           
           <h2 className="text-lg font-semibold mb-2">4. Your Rights and Choices</h2>
           <p className="mb-4">You have full control over your bookmark data. You can add, modify, or delete your bookmarks at any time through our extension. You can also choose to disable or uninstall our extension, which will not affect your existing Chrome bookmarks.</p>

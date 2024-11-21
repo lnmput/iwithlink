@@ -22,7 +22,7 @@ export default function TermsOfUse() {
               <p className="mb-4">IWITHLINK and its original content, features, and functionality are owned by IWITHLINK and are protected by international copyright, trademark, and other intellectual property laws. Our extension name and logos may not be used without explicit permission.</p>
               
               <h2 className="text-lg font-semibold mb-2">6. Limitation of Liability</h2>
-              <p className="mb-4">IWITHLINK is provided "as is" without any warranties of any kind. We shall not be liable for any damages, including but not limited to, damage to bookmarks or loss of bookmark data, arising from your use of our extension.</p>
+              <p className="mb-4">IWITHLINK is provided &quot;as is&quot; without any warranties of any kind. We shall not be liable for any damages, including but not limited to, damage to bookmarks or loss of bookmark data, arising from your use of our extension.</p>
               
               <h2 className="text-lg font-semibold mb-2">7. Changes to Terms</h2>
               <p className="mb-4">We reserve the right to modify these terms at any time. We will notify users of any material changes through our extension or website. Your continued use of IWITHLINK after such modifications constitutes acceptance of the updated terms.</p>

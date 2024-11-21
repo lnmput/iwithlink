@@ -38,5 +38,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ## knowledge
 
 ```
-repopack /Users/yangzie/www/browser/ai2notion -c /Users/yangzie/www/browser/ai2notion/repopack.json -o ai2notion.txt -i "*.log,.github,*.txt"
+repopack /Users/yangzie/www/browser/iwithlink -c /Users/yangzie/www/browser/iwithlink/repopack.json -o iwithlink.txt -i "*.log,.github,*.txt"
 ```
