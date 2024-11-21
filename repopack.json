@@ -1,0 +1,27 @@
+{
+    "output": {
+      "filePath": "iwithlink.txt",
+      "style": "txt",
+      "headerText": "a extension for chrome",
+      "removeComments": false,
+      "removeEmptyLines": false,
+      "showLineNumbers": false,
+      "topFilesLength": 5
+    },
+    "include": ["**/*"],
+    "ignore": {
+      "useGitignore": true,
+      "useDefaultPatterns": true,
+      "customPatterns": [
+        "additional-folder",
+        "**/*.log",
+        "build",
+        "node_modules",
+        "@",
+        ".plasmo",
+        "*.github",
+        ".idea",
+        "iwithlink.*"
+      ]
+    }
+  }
