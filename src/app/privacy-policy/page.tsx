@@ -7,7 +7,7 @@ export default function PrivacyPolicy() {
         <h1 className="text-2xl font-bold mb-4">Privacy Policy</h1>
         
         <section className="text-sm max-w-2xl">
-          <p className="mb-4">At IWITHLINK, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our Chrome extension for bookmark management.</p>
+          <p className="mb-4">At LINK IT NOW, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our Chrome extension for bookmark management.</p>
           
           <h2 className="text-lg font-semibold mb-2">1. Information We Collect</h2>
           <p className="mb-4">We collect only the bookmark data that you choose to manage through our extension, including bookmark titles, URLs, and any organizational structures you create. We do not collect any personal information beyond what is necessary for the core functionality of our bookmark management features.</p>
@@ -25,7 +25,7 @@ export default function PrivacyPolicy() {
           <p className="mb-4">We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you of any material changes through our extension or website.</p>
           
           <h2 className="text-lg font-semibold mb-2">6. Contact Us</h2>
-          <p className="mb-4">If you have any questions about this Privacy Policy or our practices, please contact us at iwithlink@gmail.com.</p>
+          <p className="mb-4">If you have any questions about this Privacy Policy or our practices, please contact us at lnmput@gmail.com.</p>
         </section>
       </main>
     </div>

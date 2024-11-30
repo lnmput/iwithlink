@@ -9,9 +9,9 @@ export default function Home() {
       {/* Hero Section */}
       <section className="w-full max-w-4xl mx-auto text-center mb-10 py-20">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
-          I WITH LINK
+          LINK IT NOW
         </h1>
-        <p>EASY MANAGE YOUR BOOKMARK</p>
+        <p>Make Web Bookmarks Smarter</p>
         <div className="relative">
           {/* Sparkles and gradients */}
           <SparklesCore

@@ -1,6 +1,6 @@
 {
     "output": {
-      "filePath": "iwithlink.txt",
+      "filePath": "LINK IT NOW.txt",
       "style": "txt",
       "headerText": "a extension for chrome",
       "removeComments": false,
@@ -21,7 +21,7 @@
         ".plasmo",
         "*.github",
         ".idea",
-        "iwithlink.*"
+        "LINK IT NOW.*"
       ]
     }
   }
