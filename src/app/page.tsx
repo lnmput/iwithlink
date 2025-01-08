@@ -11,7 +11,7 @@ export default function Home() {
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
           LINK IT NOW
         </h1>
-        <p>Make Web Bookmarks Smarter</p>
+        <p>Make Your Web Bookmarks Smarter</p>
         <div className="relative">
           {/* Sparkles and gradients */}
           <SparklesCore
@@ -23,7 +23,7 @@ export default function Home() {
             particleColor="#FFFFFF"
           />
           {/* Download button */}
-          <a target="_blank" href="https://chromewebstore.google.com" className="inline-flex items-center justify-center">
+          <a target="_blank" href="https://chromewebstore.google.com/detail/linkit/afglhbhdpnicmeklejjhgmfoagllfkgj" className="inline-flex items-center justify-center">
             <button className="flex items-center space-x-2 shadow-[0_4px_14px_0_rgb(0,118,255,39%)] hover:shadow-[0_6px_20px_rgba(0,118,255,23%)] hover:bg-[rgba(0,118,255,0.9)] px-6 py-3 bg-[#0070f3] rounded-md text-white font-medium transition duration-200 ease-linear">
               <ChromeIcon className="w-6 h-6" />
               <span>Download For Chrome</span>
@@ -33,7 +33,7 @@ export default function Home() {
       </section>
       
       {/* FAQ Section */}
-      <section className="w-full max-w-4xl mx-auto hidden">
+      <section className="w-full max-w-4xl mx-auto">
         <HowToUse />
         <Faqs />
       </section>

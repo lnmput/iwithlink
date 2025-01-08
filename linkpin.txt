@@ -328,7 +328,7 @@ pnpm build --zip
 ### Doc
 
 ```text
-repopack /Users/yangzie/www/browser/linkpin -c /Users/yangzie/www/browser/linkpin/repopack.json -o linkpin.txt -i "*.log,.github,*.txt,repopack.json"
+repopack /Users/yangzie/www/browser/Linkit -c /Users/yangzie/www/browser/Linkit/repopack.json -o Linkit.txt -i "*.log,.github,*.txt,repopack.json"
 ```
 
 ```bash
@@ -349,7 +349,7 @@ chrome-extension://dapdkkpahggjaaocdaahppgfflpbhoia/tabs/auth-callback.html
 File: package.json
 ================
 {
-  "name": "linkpin",
+  "name": "Linkit",
   "displayName": "__MSG_extensionName__",
   "version": "0.0.1",
   "description": "__MSG_extensionDescription__",
@@ -7339,7 +7339,7 @@ File: src/services/storage/tag.ts
 import { BaseStorageService, ChromeStorageAdapter } from "./base"
 import type { Tag, TagStorage } from "~/types/tag"
 
-const TAG_STORAGE_KEY = "linkpin_tags"
+const TAG_STORAGE_KEY = "Linkit_tags"
 const TAG_STORAGE_VERSION = 1
 
 export class TagStorageService extends BaseStorageService<TagStorage> {
@@ -7557,7 +7557,7 @@ interface HintStorage {
   hasShownSidePanelHint: boolean
 }
 
-const HINT_STORAGE_KEY = "linkpin_hints"
+const HINT_STORAGE_KEY = "Linkit_hints"
 const HINT_STORAGE_VERSION = 1
 
 class HintStorageService extends BaseStorageService<HintStorage> {
@@ -7587,7 +7587,7 @@ import { BaseStorageService, ChromeStorageAdapter } from "./base"
 import type { Settings } from "~/types/settings"
 import { DEFAULT_SETTINGS } from "~/types/settings"
 
-const SETTINGS_STORAGE_KEY = "linkpin_settings"
+const SETTINGS_STORAGE_KEY = "Linkit_settings"
 const SETTINGS_STORAGE_VERSION = 1
 
 export class SettingsStorageService extends BaseStorageService<Settings> {
@@ -7630,7 +7630,7 @@ interface VisitStorage {
   visits: BookmarkVisit[]
 }
 
-const VISIT_STORAGE_KEY = "linkpin_visits"
+const VISIT_STORAGE_KEY = "Linkit_visits"
 const VISIT_STORAGE_VERSION = 1
 
 export class VisitStorageService extends BaseStorageService<VisitStorage> {
@@ -7708,7 +7708,7 @@ import { BaseStorageService, ChromeStorageAdapter } from "./base"
 
 type Theme = 'light' | 'dark'
 
-const THEME_STORAGE_KEY = "linkpin_theme"
+const THEME_STORAGE_KEY = "Linkit_theme"
 const THEME_STORAGE_VERSION = 1
 
 class ThemeStorageService extends BaseStorageService<Theme> {
@@ -7746,7 +7746,7 @@ interface DescriptionStorage {
   descriptions: BookmarkDescription[]
 }
 
-const DESCRIPTION_STORAGE_KEY = "linkpin_descriptions"
+const DESCRIPTION_STORAGE_KEY = "Linkit_descriptions"
 const DESCRIPTION_STORAGE_VERSION = 1
 
 export class DescriptionStorageService extends BaseStorageService<DescriptionStorage> {
@@ -7891,7 +7891,7 @@ interface PinStorage {
   pinnedFolders: string[]
 }
 
-const PIN_STORAGE_KEY = "linkpin_pins"
+const PIN_STORAGE_KEY = "Linkit_pins"
 const PIN_STORAGE_VERSION = 1
 
 export class PinStorageService extends BaseStorageService<PinStorage> {

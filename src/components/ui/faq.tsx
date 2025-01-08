@@ -6,46 +6,46 @@ export const Faqs = () => {
 
   const faqItems = [
     {
-      question: "What is AI Chat Backup?",
-      answer: "AI Chat Backup is a browser extension that allows users to export and save their conversations from various AI chat platforms. It supports exporting chats as Markdown files and syncing them to Notion databases."
+        question: "What is Linkit?",
+        answer: "Linkit is a smart bookmark manager browser extension that helps users organize and manage their bookmarks efficiently. It features automatic tag organization, quick search, and cloud sync capabilities."
     },
     {
-      question: "What are the key features of AI Chat Backup?",
-      answer: "Key features of AI Chat Backup include support for multiple AI platforms (like ChatGPT, Claude, Gemini), Markdown export, Notion integration, automatic chat extraction, and user-friendly interface with options for customization."
+        question: "What are the key features of Linkit?",
+        answer: "Key features include smart tag rules for automatic bookmark organization, quick search with Command+K/Ctrl+K, multiple views (All, Hot, Recent, Pinned), dark mode support, and cloud sync using GitHub Gist."
     },
     {
-      question: "Which AI platforms does AI Chat Backup support?",
-      answer: "AI Chat Backup supports several popular AI chat platforms, including ChatGPT, Claude, Gemini, Perplexity, and Poe. The list of supported platforms is regularly updated to include new and emerging AI chat services."
+        question: "How do I access Linkit quickly?",
+        answer: "You can access Linkit using the keyboard shortcut Command+B (Mac) or Alt+B (Windows) once the extension is installed and pinned to your browser toolbar."
     },
     {
-      question: "How do I export my chat history with AI Chat Backup?",
-      answer: "To export your chat history, simply navigate to the supported AI chat platform, open the AI Chat Backup extension, and click the 'Export This Chat' button. The conversation will be saved as a Markdown file on your device."
+        question: "Can I sync my bookmarks across devices?",
+        answer: "Yes, Linkit allows you to sync your bookmarks and settings across devices through GitHub Gist. Simply sign in with your GitHub account to enable sync functionality."
     },
     {
-      question: "Can I sync my chat history to Notion using AI Chat Backup?",
-      answer: "Yes, AI Chat Backup allows you to sync your chat history directly to Notion. After authorizing your Notion account, you can use the 'Sync to Notion' button in the extension to save your conversations to a specified Notion database."
+        question: "How do smart tags work in Linkit?",
+        answer: "Smart tags automatically categorize your bookmarks based on rules you create. These rules can match URL patterns or titles, helping you organize bookmarks without manual effort."
     },
     {
-      question: "Is AI Chat Backup available on mobile devices?",
-      answer: "Currently, AI Chat Backup is designed as a browser extension for desktop use. It is not available as a standalone mobile app, but you can use it on mobile devices that support browser extensions."
+        question: "Is Linkit available on mobile devices?",
+        answer: "Currently, Linkit is designed as a browser extension for desktop use. It works with major desktop browsers that support extensions."
     },
     {
-      question: "How do I authorize AI Chat Backup to access my Notion account?",
-      answer: "To authorize Notion access, go to the AI Chat Backup options page and click on 'Authorize Notion'. Follow the prompts to log in to your Notion account and grant the necessary permissions. The extension will guide you through creating the required databases."
+        question: "How do I backup my bookmarks with Linkit?",
+        answer: "After signing in with GitHub, you can backup your bookmarks by clicking the backup button in settings. Your bookmarks will be securely stored in a GitHub Gist."
     },
     {
-      question: "What are the privacy measures in place with AI Chat Backup?",
-      answer: "AI Chat Backup prioritizes user privacy. It only accesses and processes chat data when explicitly requested by the user. All data is stored locally or in the user's own Notion account. The extension does not store or transmit chat content to any third-party servers."
+        question: "What views are available in Linkit?",
+        answer: "Linkit offers multiple views: All (complete bookmark list), Hot (most visited), Recent (newly added), Pinned (important bookmarks), and Tag view (organized by tags)."
     },
     {
-      question: "Can AI Chat Backup handle different languages?",
-      answer: "Yes, AI Chat Backup can handle conversations in multiple languages. The chat extraction and export features work independently of the language used in the conversation, preserving the original text and formatting."
+        question: "Does Linkit support dark mode?",
+        answer: "Yes, Linkit includes built-in dark mode support. You can toggle between light and dark themes using the theme switch in the interface."
     },
     {
-      question: "What are the main benefits for users of AI Chat Backup?",
-      answer: "The main benefits include easy preservation of valuable AI conversations, organized storage in Notion for quick reference, the ability to share or review past interactions, and seamless integration with multiple AI platforms, all while maintaining user privacy and data control."
+        question: "How secure is my bookmark data with Linkit?",
+        answer: "Linkit prioritizes data security. Your bookmarks are stored locally in your browser and optionally in your personal GitHub Gist. No data is shared with third parties."
     }
-  ];
+];
 
   return (
     <div className="w-full bg-black text-white p-4 mt-20">
