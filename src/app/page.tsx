@@ -2,13 +2,21 @@ import { SparklesCore } from "@/components/ui/sparkles"
 import { Faqs } from "@/components/ui/faq"
 import { HowToUse } from "@/components/ui/use"
 import { ChromeIcon } from '@/components/ui/chrome-icon';
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white flex flex-col items-center justify-center py-20">
       {/* Hero Section */}
       <section className="w-full max-w-4xl mx-auto text-center mb-10 py-20">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 flex items-center justify-center gap-4">
+          <Image 
+            src="/logo.png" 
+            alt="Link It Now Logo" 
+            width={70}
+            height={70}
+            className="w-12 md:w-16 lg:w-20 h-auto" 
+          />
           LINK IT NOW
         </h1>
         <p>Make Your Web Bookmarks Smarter</p>
