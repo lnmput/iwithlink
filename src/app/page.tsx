@@ -15,7 +15,7 @@ export default function Home() {
             alt="Link It Now Logo" 
             width={70}
             height={70}
-            className="w-12 md:w-16 lg:w-20 h-auto" 
+            className="w-8 md:w-14 lg:w-14 h-auto rounded" 
           />
           LINK IT NOW
         </h1>
