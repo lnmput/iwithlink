@@ -18,7 +18,7 @@ export const HowToUse = () => {
   return (
     <div className="how-to-use-container relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border border-gray-600 bg-black shadow shadow-slate-700">
      
-      <h2 className="text-4xl font-bold text-center mb-6">How to Use Linkit</h2>
+              <h2 className="text-4xl font-bold text-center mb-6">How to Use BookmarkCat</h2>
       <p className="text-center mb-10 text-gray-400 max-w-2xl mx-auto">
         Bookmark management made simple and smart. 
         Follow these steps to organize your browser bookmarks efficiently.
@@ -28,7 +28,7 @@ export const HowToUse = () => {
         <Step 
           number={1} 
           title="Install & Pin" 
-          description="Add Linkit to your browser toolbar and access it anytime with Command+B (Mac) or Alt+B (Windows)."
+                      description="Add BookmarkCat to your browser toolbar and access it anytime with Command+B (Mac) or Alt+B (Windows)."
         />
         <Step 
           number={2} 

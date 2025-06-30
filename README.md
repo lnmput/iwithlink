@@ -38,5 +38,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ## knowledge
 
 ```
-repopack /Users/yangzie/www/browser/LINK IT NOW -c /Users/yangzie/www/browser/LINK IT NOW/repopack.json -o LINK IT NOW.txt -i "*.log,.github,*.txt"
+repopack /Users/yangzie/www/browser/BookmarkCat -c /Users/yangzie/www/browser/BookmarkCat/repopack.json -o BookmarkCat.txt -i "*.log,.github,*.txt"
 ```

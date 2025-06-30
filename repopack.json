@@ -1,6 +1,6 @@
 {
     "output": {
-      "filePath": "LINK IT NOW.txt",
+      "filePath": "BookmarkCat.txt",
       "style": "txt",
       "headerText": "a extension for chrome",
       "removeComments": false,
@@ -21,7 +21,7 @@
         ".plasmo",
         "*.github",
         ".idea",
-        "LINK IT NOW.*"
+        "BookmarkCat.*"
       ]
     }
   }

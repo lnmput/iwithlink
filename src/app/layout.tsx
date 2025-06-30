@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   icons: {
     icon: 'favicon.ico',
   },
-  title: "LINK IT NOW",
+      title: "BookmarkCat",
   description: "",
 };
 

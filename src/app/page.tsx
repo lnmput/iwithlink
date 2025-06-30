@@ -12,12 +12,12 @@ export default function Home() {
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 flex items-center justify-center gap-4">
           <Image 
             src="/logo.png" 
-            alt="Link It Now Logo" 
+                            alt="BookmarkCat Logo" 
             width={70}
             height={70}
             className="w-8 md:w-14 lg:w-14 h-auto rounded" 
           />
-          LINK IT NOW
+                          BookmarkCat
         </h1>
         <p>Make Your Web Bookmarks Smarter</p>
         <div className="relative">
